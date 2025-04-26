@@ -1,4 +1,5 @@
 import utilities as utilA
+import utilitiesB as utilB
 
 def main():
     a = 4
@@ -6,6 +7,8 @@ def main():
     c = utilA.suma(a,b)
 
     print(f"El valor de la suma de a y b es {c}")
+    d = utilB.restaB(a,b)
+    print(f"El valor de la resta de a y b es {d}")
 
 if __name__ == "__main__":
     main()
